@@ -2,6 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <title>MEET THE COMPUTING FACULTY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
     <link rel="stylesheet" href="fal.css"> 
 </head>
 
@@ -11,37 +14,79 @@
 
 
 <body>
-    <div class="navbar">
-          <a href="">Home</a>
-          <div class="dropdown">
-            <button class="dropbtn">About
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href=olm.html>Our Learning Model</a>
-              <a href="fal.html">Facaulty and Academic Leadership</a>
-              <a href="ofap.html">Our Founding Academic Partners</a>
-              <a href="op.html">Our Policies</a>
+    <div class="top-container">
+        <nav class="navbar">
+            <a href="home.html">
+                <img class="logo" src="logo.png" alt="logo">
+            </a>
+            <ul>
+
+                <li><a href="home.html">Home</a></li>
+
+                <li class="sin"><a href="about.html">About</a>
+                    <ul class="sub">
+                        <li><a href="olm.html">Our Learning Model</a></li>
+                        <li><a href="fal.html">Faculty and Academic Leadership</a></li>
+                        <li><a href="ofap.html">Founding Academic Partners</a></li>
+                        <li><a href="op.html">Policies</a></li>
+                    </ul>
+                </li>
+                <li class="sin"><a href="undergraduate.html">Undergraduate</a>
+                    <ul class="sub">
+                        <li><a href="about.html">Overview</a></li>
+                        <li><a href="about.html">Degree Programs</a></li>
+                        <li><a href="about.html">Admissions</a></li>
+                        <li><a href="about.html">Academic Calendar</a></li>
+                    </ul>
+                </li>
+                <li class="sin"><a href="campuses.html">Campuses</a>
+                    <ul class="sub">
+                        <li><a href="about.html">Mauritius</a></li>
+                        <li><a href="about.html">Rwanda</a></li>
+                    </ul>
+                </li>
+                <li class="sin"><a href="studentlife.html">Student Life</a>
+                    <ul class="sub">
+                        <li><a href="about.html">Overview</a></li>
+                        <li><a href="about.html">ALU Students</a></li>
+                        <li><a href="about.html">Activities</a></li>
+                    </ul>
+                </li>
+                <li class="sin"><a href="authors.html">Authors</a>
+                    <ul class="sub">
+                        <li><a href="about.html">Overview</a></li>
+                        <li><a href="about.html">Author Profile</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="sach">
+                <button>
+                    <span class="material-icons">
+                        search
+                    </span>
+                </button>
             </div>
-          </div> 
-          <a href="">Undergraduate</a>
-          <a href="">Campuses</a>
-          <a href="">Student life</a>
-          <a href="">Authors</a>
-        </div>
-        
-        <div style="height:100px;background-color:#212F61    ;font-size:30px;color:white;font-family: sans-serif; text-align: center;vertical-align: middle;line-height: 100px">
+        </nav>
+
+    </div>
+        <div class="content">
+        <div style="height:100px;background-color:#051241   ;font-size:30px;color:white;font-family: 'Montserrat', sans-serif; text-align: center;vertical-align: middle;line-height: 100px">
             COMPUTING ACADEMIC FACULTY
         </div>
         <div class="intro">
-            <img src="staff.jpg" alt="yovinpicture">
-            <br></br>
-            <P>ALU’s faculty brings a collective wealth of diverse professional experiences, interests, and cultures to facilitate learning and growth in every student to develop the next generation of African and global leaders.</P>
-          </div>  
+            <div class="wallpaper">
+                <img src="staff.jpg" alt="staffpicture">
+            </div>
+            </div>
+            <br>
+            <div class="summary">
+<p> ALU’s Computing faculty brings a collective wealth of diverse professional experiences, interests, and cultures to facilitate learning and growth in every student to develop the next generation of African and global leaders.The staff are highly specialized in various aspects of the digital world
+
+</p>
+ </div>
+         <div class="wrapper">
         
-    <div class="wrapper">
-        
-        <div style="height:100px;background-color:#212F61    ;font-size:40px;color:white;font-family: sans-serif; text-align: center;vertical-align: middle;line-height: 100px">
+        <div style="height:100px;background-color:#051241    ;font-size:40px;color:white;font-family: 'Montserrat', sans-serif; text-align: center;vertical-align: middle;line-height: 100px">
             THE TEAM
             </div>
 <br></br>
@@ -61,7 +106,7 @@
                 </div>
             <h3>Ruslan</h3>
             <p class="about">Cyber Security</p>
-            <p>He is a good guy</p>
+            <p>Ruslan earned his M.A.Sc. in Electrical and Computer Engineering and B.A.Sc. in Computer Engineering from the University of Ottawa, Canada. Before joining ALU, he worked as a Systems Integrator at First To Know Scandinavia A.B in Gothenburg, Sweden. His research interests include Machine Learning, multi-robot systems, automation and computer security.</p>
             </div>
             <div class="staff">
                 <div class="picture">
@@ -69,7 +114,60 @@
                 </div>
             <h3>Allan</h3>
             <p class="about">Programming</p>
-            <p>He is a good guy</p>
+            <p>Allan is currently a Faculty in the Computer Science Department at ALU Mauritius with 12 years of experience in teaching and education management. His research interest includes mobile/5G security, digital forensics, authentication techniques, cyber crimes, IoT, apps, and robotics.</p>
         </div>
     </div>
+         </div>
+         <div class="footer">
+            <div class="inner-footer">
+                <div class="footer-items">
+            <h2>ABOUT ALU</h2>
+            <p>ALU aims to develop 3 million ethical and entrepreneurial leaders for Africa and the world by 2035. It uses a personalized, student-driven, project-based, and mission-oriented approach to create agile, lifelong learners who can adapt to a changing world </p>
+                </div>
+                <div class="footer-items">
+                    <h2>QUICK LINKS</h2>
+                    <div class="border"></div>
+                    <ul>
+                        <a href="home.html"><li>Home</li></a>
+                        <a href="about.html"><li>About Us</li></a>
+                        <a href="undergraduate.html"><li>Undergraduate</li></a>
+                        <a href="campuses.html"><li>Campuses</li></a>
+                        <a href="studentlife.html"><li>Student Life</li></a>
+                    </ul>
+                        </div>
+            
+                        <div class="footer-items">
+                            <h2>KNOW MORE</h2>
+                            <div class="border"></div>
+                            <ul>
+                                <a href="https://www.youtube.com/watch?v=kcEIsbO0ivA"><li>Our founder</li></a>
+                                <a href="olm.html"><li>Our learning model</li></a>
+                                <a href="https://youtu.be/ZWMDtaLELH8"><li>Mauritius</li></a>
+                                
+                            </ul>
+                                </div>
+                                <div class="footer-items">
+                                    <h2>CONTACT US</h2>
+                                    <div class="border"></div>
+                                    <ul>
+                                        <li><i class="fa fa-map-marker" aria-hidden="true"></i>Beau Plan,Mauritius</li>
+                                        <li><i class="fa fa-phone" aria-hidden="true"></i>+23054434951</li>
+                                        <li><i class="fa fa-envelope" aria-hidden="true"></i>info@alueducation.com</li>
+                                    </ul>
+                                    <div class="social-media">
+                                        <a href="https://facebook.com/alu.education"><i class="fa fa-facebook" aria-hidden="true"> </i></a>
+                                            <a href="https://twitter.com/alueducation"><i class="fa fa-twitter" aria-hidden="true"> </i></a>
+                                                <a href="https://www.instagram.com/alueducation/"><i class="fa fa-instagram" aria-hidden="true"> </i></a>
+                                                    <a href="https://www.youtube.com/channel/UChgb00MsGJt8-Dnjz8IUC6w"><i class="fa fa-youtube" aria-hidden="true"> </i></a>
+            
+                                     </div>
+                                </div>
+            </div>
+             <div class="footer-bottom">
+            Copyright &copy; ALU 2020. All rights reserved.
+            
+             </div>
+            
+            
+                                    </div>
 </body>
