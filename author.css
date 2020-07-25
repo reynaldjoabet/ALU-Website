@@ -19,7 +19,7 @@ body{
 .authors{
     min-height: 100vh;
     padding: 60px 15px;
-    background-color: #212F61;
+    background-color: white;
     float: left;
     width: 100%;
     display: flex;
@@ -40,7 +40,7 @@ border-radius: 50%;
 .authors .card .box{
     padding: 15px;
     border-radius: 5px;
-    background-color: #212F61;
+    background-color: white;
     transition: margin 1s ease,box-shadow 1s ease;
 }
 .authors .card .box:hover{
@@ -77,8 +77,8 @@ border-radius: 50%;
 .authors h1{
     font-size: 36px;
     font-family: open sans;
-    color: #ffffff;
-    text-align: center;
+    color: black;
+    text-align: left;
     padding-bottom:60px ;
     margin: 0;
     font-weight: 700;
@@ -90,7 +90,8 @@ border-radius: 50%;
         
     }
     .card #last-image{
-        width: 200%;
+        width: 100%;
+        margin-left: -50%;
     }
    
      
@@ -99,9 +100,11 @@ border-radius: 50%;
     .authors .card{
         width: 100%;
     }
+    
     .card #last-image{
         width: 100%;
+    margin-left: 0%;
     }
-   
     
 }
+
